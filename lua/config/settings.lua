@@ -5,5 +5,8 @@ vim.opt.shiftwidth = 2 -- Number of spaces for auto-indentation
 -- turn on persistent undo
 vim.o.undofile = true
 
+-- required by bufferline
+vim.o.termguicolors = true
+
 vim.opt.number = true
 vim.opt.relativenumber = true
