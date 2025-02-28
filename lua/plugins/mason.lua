@@ -1,6 +1,7 @@
 return {
 	{
 		"williamboman/mason.nvim",
+		-- diabled mason in favour of nixpkgs
 		enabled = false, -- Ensure it's enabled
 		config = function()
 			require("mason").setup()
